@@ -102,16 +102,21 @@ function TreatedCases() {
       </section>
       <span className="myHr" />
       <h2 align="center">{t("some_exemples")}</h2>
+      <h1
+        style={{
+          textAlign: "center",
+          marginTop: "100px",
+          textTransform: "uppercase",
+        }}
+        className={styles.index}
+        data-aos="flip-up"
+        data-aos-duration="1000"
+        data-aos-delay="300"
+      >
+        {t("first_case_before")}
+      </h1>
       <section className={styles.introduction}>
         <div className={locale === "ar" ? styles.reverseRow : styles.row}>
-          <div
-            data-aos="slide-right"
-            data-aos-duration="1000"
-            data-aos-delay="300"
-            className={styles.col4}
-          >
-            <h1 className={styles.index}>{t("first_case_before")}</h1>
-          </div>
           <div
             data-aos="slide-left"
             data-aos-duration="1000"
@@ -185,16 +190,21 @@ function TreatedCases() {
         </div>
       </section>
       <span className="myHr" />
+      <h1
+        style={{
+          textAlign: "center",
+          marginTop: "100px",
+          textTransform: "uppercase",
+        }}
+        className={styles.index}
+        data-aos="flip-up"
+        data-aos-duration="1000"
+        data-aos-delay="300"
+      >
+        {t("second_case_before")}
+      </h1>
       <section className={styles.introduction}>
         <div className={locale === "ar" ? styles.reverseRow : styles.row}>
-          <div
-            data-aos="slide-right"
-            data-aos-duration="1000"
-            data-aos-delay="300"
-            className={styles.col4}
-          >
-            <h1 className={styles.index}>{t("second_case_before")}</h1>
-          </div>
           <div
             data-aos="slide-left"
             data-aos-duration="1000"
