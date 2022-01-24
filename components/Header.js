@@ -15,12 +15,12 @@ function Header(props) {
   const [showLangsList, setShowLangsList] = useState(false);
   const [showMobileMenu, setShowMobileMenue] = useState(false);
 
-  // useEffect(() => {
-  //   document.addEventListener("scroll", () => {
-  //     const scrollCheck = window.scrollY > 40;
-  //     setScrolled(scrollCheck);
-  //   });
-  // });
+  useEffect(() => {
+    document.addEventListener("scroll", () => {
+      const scrollCheck = window.scrollY > 40;
+      setScrolled(scrollCheck);
+    });
+  });
 
   useEffect(() => {
     var prevScrollpos = window.pageYOffset;
@@ -40,10 +40,7 @@ function Header(props) {
   }, []);
 
   return (
-    <header
-      id="header"
-      className={scrolled ? `${styles.header} ${styles.shadow}` : styles.header}
-    >
+    <header id="header" className={`${styles.header} ${styles.shadow}`}>
       <div className={styles.content}>
         <div className="container flex between">
           <div
@@ -53,7 +50,7 @@ function Header(props) {
             }}
           >
             <Link href="/">
-              <img src="images/logo-new.png" alt="Logo" />
+              <img src="images/new-logo.png" alt="Logo" />
             </Link>
           </div>
           <div className="right-side flex">
