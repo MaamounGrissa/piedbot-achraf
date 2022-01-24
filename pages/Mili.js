@@ -217,7 +217,7 @@ function Mili() {
             data-aos-duration="1000"
             data-aos-delay="300"
           >
-            <div
+            <div 
               className={
                 locale === "ar" ? styles.reverseListIcon : styles.listIcon
               }
