@@ -35,10 +35,17 @@ function Mili() {
             <img
               data-aos="fade-up"
               data-aos-duration="1000"
+              data-aos-delay="300"
               className={styles.circle}
               src="./images/doctor.jpg"
             />
-            <h1 data-aos="flip-up">{t("doctor_info")}</h1>
+            <h1
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-delay="300"
+            >
+              {t("doctor_info")}
+            </h1>
             <p>{t("doctor_info_description")}</p>
             <Link href="/Contact">
               <a className={styles.contactBtn}>{t("contacts")}</a>
@@ -57,6 +64,7 @@ function Mili() {
             className={locale === "ar" ? styles.rcol2 : styles.col2}
             data-aos="slide-left"
             data-aos-duration="1000"
+            data-aos-delay="300"
           >
             {t("mili_description_rest_1")}
           </div>
@@ -64,6 +72,7 @@ function Mili() {
             className={locale === "ar" ? styles.rcol2 : styles.col2}
             data-aos="slide-right"
             data-aos-duration="1000"
+            data-aos-delay="300"
           >
             <img
               className={styles.img}
@@ -77,6 +86,7 @@ function Mili() {
             className={locale === "ar" ? styles.rcol2 : styles.col2}
             data-aos="slide-left"
             data-aos-duration="1000"
+            data-aos-delay="300"
           >
             <img className={styles.img} src="./images/MiliMethod/stimul3.jpg" />
           </div>
@@ -84,6 +94,7 @@ function Mili() {
             className={locale === "ar" ? styles.rcol2 : styles.col2}
             data-aos="slide-right"
             data-aos-duration="1000"
+            data-aos-delay="300"
           >
             {t("mili_description_rest_2")}
           </div>
@@ -94,6 +105,7 @@ function Mili() {
             className={locale === "ar" ? styles.rcol2 : styles.col2}
             data-aos="slide-left"
             data-aos-duration="1000"
+            data-aos-delay="300"
           >
             {t("mili_description_rest_3")}
           </div>
@@ -101,6 +113,7 @@ function Mili() {
             className={locale === "ar" ? styles.rcol2 : styles.col2}
             data-aos="slide-right"
             data-aos-duration="1000"
+            data-aos-delay="300"
           >
             <img className={styles.img} src="./images/MiliMethod/marteau.jpg" />
           </div>
@@ -116,6 +129,7 @@ function Mili() {
           className={styles.box}
           data-aos="fade-up"
           data-aos-duration="1000"
+          data-aos-delay="300"
         >
           <h1>{t("treatment_step1")}</h1>
           <p id="step1" className="steps">
@@ -130,6 +144,7 @@ function Mili() {
           className={styles.box}
           data-aos="fade-up"
           data-aos-duration="1000"
+          data-aos-delay="300"
         >
           <h1>{t("treatment_step2")}</h1>
           <p id="step2" className="steps">
@@ -144,6 +159,7 @@ function Mili() {
           className={styles.box}
           data-aos="fade-up"
           data-aos-duration="1000"
+          data-aos-delay="300"
         >
           <h1>{t("treatment_step3")}</h1>
           <p id="step3" className="steps">
@@ -158,6 +174,7 @@ function Mili() {
           className={styles.box}
           data-aos="fade-up"
           data-aos-duration="1000"
+          data-aos-delay="300"
         >
           <h1>{t("treatment_step4")}</h1>
           <p id="step4" className="steps">
@@ -172,6 +189,7 @@ function Mili() {
           className={styles.box}
           data-aos="fade-up"
           data-aos-duration="1000"
+          data-aos-delay="300"
         >
           <h1>{t("treatment_step5")}</h1>
           <p id="step5" className="steps">
@@ -197,6 +215,7 @@ function Mili() {
           <div
             data-aos={locale === "ar" ? "slide-left" : "slide-right"}
             data-aos-duration="1000"
+            data-aos-delay="300"
           >
             <div
               className={
@@ -210,6 +229,7 @@ function Mili() {
             <p
               data-aos={locale === "ar" ? "slide-right" : "slide-left"}
               data-aos-duration="1000"
+              data-aos-delay="300"
             >
               {t("precaution_a")}
             </p>
@@ -223,6 +243,7 @@ function Mili() {
           <div
             data-aos={locale === "ar" ? "slide-left" : "slide-right"}
             data-aos-duration="1000"
+            data-aos-delay="300"
           >
             <div
               className={
@@ -233,7 +254,11 @@ function Mili() {
             </div>
           </div>
           <div className={styles.list}>
-            <p data-aos={locale === "ar" ? "slide-right" : "slide-left"}>
+            <p
+              data-aos={locale === "ar" ? "slide-right" : "slide-left"}
+              data-aos-duration="1000"
+              data-aos-delay="300"
+            >
               {t("precaution_b")}
             </p>
           </div>
@@ -246,6 +271,7 @@ function Mili() {
           <div
             data-aos={locale === "ar" ? "slide-left" : "slide-right"}
             data-aos-duration="1000"
+            data-aos-delay="300"
           >
             <div
               className={
@@ -256,7 +282,11 @@ function Mili() {
             </div>
           </div>
           <div className={styles.list}>
-            <p data-aos={locale === "ar" ? "slide-right" : "slide-left"}>
+            <p
+              data-aos={locale === "ar" ? "slide-right" : "slide-left"}
+              data-aos-duration="1000"
+              data-aos-delay="300"
+            >
               {t("precaution_c")}
             </p>
           </div>
@@ -269,6 +299,7 @@ function Mili() {
           <div
             data-aos={locale === "ar" ? "slide-left" : "slide-right"}
             data-aos-duration="1000"
+            data-aos-delay="300"
           >
             <div
               className={
@@ -279,7 +310,11 @@ function Mili() {
             </div>
           </div>
           <div className={styles.list}>
-            <p data-aos={locale === "ar" ? "slide-right" : "slide-left"}>
+            <p
+              data-aos={locale === "ar" ? "slide-right" : "slide-left"}
+              data-aos-duration="1000"
+              data-aos-delay="300"
+            >
               {t("precaution_d")}
             </p>
           </div>
@@ -292,6 +327,7 @@ function Mili() {
           <div
             data-aos={locale === "ar" ? "slide-left" : "slide-right"}
             data-aos-duration="1000"
+            data-aos-delay="300"
           >
             <div
               className={
@@ -302,7 +338,11 @@ function Mili() {
             </div>
           </div>
           <div className={styles.list}>
-            <p data-aos={locale === "ar" ? "slide-right" : "slide-left"}>
+            <p
+              data-aos={locale === "ar" ? "slide-right" : "slide-left"}
+              data-aos-duration="1000"
+              data-aos-delay="300"
+            >
               {t("precaution_e")}
             </p>
           </div>
@@ -315,6 +355,7 @@ function Mili() {
           <div
             data-aos={locale === "ar" ? "slide-left" : "slide-right"}
             data-aos-duration="1000"
+            data-aos-delay="300"
           >
             <div
               className={
@@ -325,7 +366,11 @@ function Mili() {
             </div>
           </div>
           <div className={styles.list}>
-            <p data-aos={locale === "ar" ? "slide-right" : "slide-left"}>
+            <p
+              data-aos={locale === "ar" ? "slide-right" : "slide-left"}
+              data-aos-duration="1000"
+              data-aos-delay="300"
+            >
               {t("precaution_f")}
             </p>
           </div>
@@ -338,6 +383,7 @@ function Mili() {
           <div
             data-aos={locale === "ar" ? "slide-left" : "slide-right"}
             data-aos-duration="1000"
+            data-aos-delay="300"
           >
             <div
               className={
@@ -349,7 +395,11 @@ function Mili() {
           </div>
 
           <div className={styles.list}>
-            <p data-aos={locale === "ar" ? "slide-right" : "slide-left"}>
+            <p
+              data-aos={locale === "ar" ? "slide-right" : "slide-left"}
+              data-aos-duration="1000"
+              data-aos-delay="300"
+            >
               {t("precaution_g")}
             </p>
           </div>

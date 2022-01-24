@@ -46,6 +46,7 @@ export default function Home(props) {
             <h2
               data-aos="fade-in"
               data-aos-duration="1000"
+              data-aos-delay="300"
               className={styles.subtitle}
             >
               {t("site_service")}
@@ -56,6 +57,7 @@ export default function Home(props) {
             <p
               data-aos="fade-up"
               data-aos-duration="1000"
+              data-aos-delay="300"
               className={styles.desc}
             >
               {t("site_intro")}
@@ -80,6 +82,7 @@ export default function Home(props) {
               className={styles.col4}
               data-aos="fade-in"
               data-aos-duration="1000"
+              data-aos-delay="300"
               src="/images/icons/info.png"
               alt="icon"
             />
@@ -87,6 +90,7 @@ export default function Home(props) {
               className={styles.col8}
               data-aos="fade-up"
               data-aos-duration="1000"
+              data-aos-delay="300"
             >
               <h3>{t("explication")}</h3>
               <p>{t("explication-content")}</p>
@@ -97,6 +101,7 @@ export default function Home(props) {
               className={styles.col4}
               data-aos="fade-in"
               data-aos-duration="1000"
+              data-aos-delay="300"
               src="/images/icons/genetics.png"
               alt="icon"
             />
@@ -104,6 +109,7 @@ export default function Home(props) {
               className={styles.col8}
               data-aos="fade-up"
               data-aos-duration="1000"
+              data-aos-delay="300"
             >
               <h3>{t("genetics")}</h3>
               <p>{t("genetics-content")}</p>
@@ -114,6 +120,7 @@ export default function Home(props) {
               className={styles.col4}
               data-aos="fade-in"
               data-aos-duration="1000"
+              data-aos-delay="300"
               src="/images/icons/types.png"
               alt="icon"
             />
@@ -121,6 +128,7 @@ export default function Home(props) {
               className={styles.col8}
               data-aos="fade-up"
               data-aos-duration="1000"
+              data-aos-delay="300"
             >
               <h3>{t("types")}</h3>
               <p>{t("types-content")}</p>
@@ -132,6 +140,7 @@ export default function Home(props) {
             className={styles.row}
             data-aos="fade-side"
             data-aos-duration="1000"
+            data-aos-delay="300"
             src="/images/medical.jpg"
             alt="icon"
           />
@@ -144,6 +153,7 @@ export default function Home(props) {
           <div
             data-aos="fade-down-right"
             data-aos-duration="1000"
+            data-aos-delay="300"
             className={styles.col5}
           >
             <img src="./images/icons/injury.png" />
@@ -152,6 +162,7 @@ export default function Home(props) {
           <div
             data-aos="fade-up-right"
             data-aos-duration="1000"
+            data-aos-delay="300"
             className={styles.col5}
           >
             <img src="./images/icons/processing.png" />
@@ -160,6 +171,7 @@ export default function Home(props) {
           <div
             data-aos="fade-down-right"
             data-aos-duration="1000"
+            data-aos-delay="300"
             className={styles.col5}
           >
             <img src="./images/icons/blood.png" />
@@ -168,6 +180,7 @@ export default function Home(props) {
           <div
             data-aos="fade-up-right"
             data-aos-duration="1000"
+            data-aos-delay="300"
             className={styles.col5}
           >
             <img src="./images/icons/intervention.png" />
@@ -176,6 +189,7 @@ export default function Home(props) {
           <div
             data-aos="fade-down-right"
             data-aos-duration="1000"
+            data-aos-delay="300"
             className={styles.col5}
           >
             <img src="./images/icons/first-steps.png" />
@@ -191,11 +205,12 @@ export default function Home(props) {
           <img
             data-aos="fade-in"
             data-aos-duration="1000"
+            data-aos-delay="300"
             className={styles.icon}
             alt="children"
             src="./images/icons/children.png"
           />
-          <div data-aos="fade-up" data-aos-duration="1000">
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             {counterIsVisible ? (
               <h4>
                 <CountUp end={70} duration={1.3} /> %
@@ -210,11 +225,12 @@ export default function Home(props) {
           <img
             data-aos="fade-in"
             data-aos-duration="1000"
+            data-aos-delay="300"
             className={styles.icon}
             alt="children"
             src="./images/icons/frequency.png"
           />
-          <div data-aos="fade-up" data-aos-duration="1000">
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             {counterIsVisible ? (
               <h4>
                 <CountUp end={2} duration={1.3} />
@@ -237,11 +253,12 @@ export default function Home(props) {
           <img
             data-aos="fade-in"
             data-aos-duration="1000"
+            data-aos-delay="300"
             className={styles.icon}
             alt="children"
             src="./images/icons/baby-feet.png"
           />
-          <div data-aos="fade-up" data-aos-duration="1000">
+          <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             {counterIsVisible ? (
               <h4>
                 <CountUp end={50} duration={1.3} /> %
@@ -255,7 +272,13 @@ export default function Home(props) {
       </section>
       <section className={styles.videoContainer}>
         <h3 data-aos="flip-up">{t("video4_title")}</h3>
-        <video poster="/videos/thumbnail_home.png" controls data-aos="fade-up">
+        <video
+          poster="/videos/thumbnail_home.png"
+          controls
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+        >
           <source src="/videos/doctor mili version L.mp4" type="video/mp4" />
         </video>
       </section>

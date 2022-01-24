@@ -148,6 +148,7 @@ function Contact() {
               className="col50"
               data-aos="fade-right"
               data-aos-duration="1000"
+              data-aos-delay="300"
             >
               <div className={styles.contactInfo}>
                 <h2>
@@ -223,6 +224,7 @@ function Contact() {
                 className={styles.contactInfo}
                 data-aos="fade-left"
                 data-aos-duration="1000"
+                data-aos-delay="300"
               >
                 <h2>
                   <span className={styles.smHr} />

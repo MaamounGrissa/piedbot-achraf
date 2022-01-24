@@ -7,7 +7,11 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.socials}>
-        <a href="" target="_blanc" rel="noreferrer noopener">
+        <a
+          href="https://www.facebook.com/METHODE.MILI/"
+          target="_blanc"
+          rel="noreferrer noopener"
+        >
           <Image
             src="/images/socials/facebook.png"
             alt="Facebook"
@@ -18,8 +22,8 @@ function Footer() {
         </a>
         <a href="" target="_blanc" rel="noreferrer noopener">
           <Image
-            src="/images/socials/instagram.png"
-            alt="Instagram"
+            src="/images/socials/linkedin.png"
+            alt="linkedin"
             layout="responsive"
             width={10}
             height={10}

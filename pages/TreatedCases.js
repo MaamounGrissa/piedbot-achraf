@@ -25,13 +25,19 @@ function TreatedCases() {
         />
         <div className={styles.overlay}>
           <div className="med">
-            <h1 data-aos="flip-up" className={styles.title}>
+            <h1
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-delay="300"
+              className={styles.title}
+            >
               {t("treated_cases_title")}
             </h1>
             <br />
             <p
               data-aos="fade-up"
               data-aos-duration="1000"
+              data-aos-delay="300"
               className={styles.desc}
             >
               {t("treated_cases_subtitle")}
@@ -48,6 +54,7 @@ function TreatedCases() {
             style={{ textAlign: "center" }}
             data-aos="fade-up"
             data-aos-duration="1000"
+            data-aos-delay="300"
           >
             {t("treated_cases_intro")}
           </h2>
@@ -55,20 +62,40 @@ function TreatedCases() {
       </section>
       <section className={styles.introduction}>
         <div className={locale === "ar" ? styles.reverseRow : styles.row}>
-          <div data-aos="slide-right" className={styles.col4}>
+          <div
+            data-aos="slide-right"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            className={styles.col4}
+          >
             <h1 className={styles.index}>{t("clubfoot_before")}</h1>
           </div>
-          <div data-aos="slide-left" className={styles.col8}>
+          <div
+            data-aos="slide-left"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            className={styles.col8}
+          >
             <img src="/images/treatedCases/before.jpg" />
           </div>
         </div>
       </section>
       <section className={styles.introduction}>
         <div className={locale === "ar" ? styles.reverseRow : styles.row}>
-          <div data-aos="slide-right" className={styles.col4}>
+          <div
+            data-aos="slide-right"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            className={styles.col4}
+          >
             <h1 className={styles.index}>{t("clubfoot_after")}</h1>
           </div>
-          <div data-aos="slide-left" className={styles.col8}>
+          <div
+            data-aos="slide-left"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            className={styles.col8}
+          >
             <img src="/images/treatedCases/after.jpg" />
           </div>
         </div>
@@ -77,42 +104,82 @@ function TreatedCases() {
       <h2 align="center">{t("some_exemples")}</h2>
       <section className={styles.introduction}>
         <div className={locale === "ar" ? styles.reverseRow : styles.row}>
-          <div data-aos="slide-right" className={styles.col4}>
+          <div
+            data-aos="slide-right"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            className={styles.col4}
+          >
             <h1 className={styles.index}>{t("first_case_before")}</h1>
           </div>
-          <div data-aos="slide-left" className={styles.col8}>
+          <div
+            data-aos="slide-left"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            className={styles.col8}
+          >
             <img src="/images/treatedCases/first-case-1.jpg" />
           </div>
         </div>
       </section>
       <section className={styles.introduction}>
         <div className={locale === "ar" ? styles.reverseRow : styles.row}>
-          <div data-aos="slide-right" className={styles.col4}>
+          <div
+            data-aos="slide-right"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            className={styles.col4}
+          >
             <h1 className={styles.index}>{t("first_case_after_two_weeks")}</h1>
           </div>
-          <div data-aos="slide-left" className={styles.col8}>
+          <div
+            data-aos="slide-left"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            className={styles.col8}
+          >
             <img src="/images/treatedCases/first-case-2.jpg" />
           </div>
-        </div> 
+        </div>
       </section>
       <section className={styles.introduction}>
         <div className={locale === "ar" ? styles.reverseRow : styles.row}>
-          <div data-aos="slide-right" className={styles.col4}>
+          <div
+            data-aos="slide-right"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            className={styles.col4}
+          >
             <h1 className={styles.index}>
               {t("first_case_after_three_weeks")}
             </h1>
           </div>
-          <div data-aos="slide-left" className={styles.col8}>
+          <div
+            data-aos="slide-left"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            className={styles.col8}
+          >
             <img src="/images/treatedCases/first-case-3.jpg" />
           </div>
         </div>
       </section>
       <section className={styles.introduction}>
         <div className={locale === "ar" ? styles.reverseRow : styles.row}>
-          <div data-aos="slide-right" className={styles.col4}>
+          <div
+            data-aos="slide-right"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            className={styles.col4}
+          >
             <h1 className={styles.index}>{t("first_case_after_one_month")}</h1>
           </div>
-          <div data-aos="slide-left" className={styles.col8}>
+          <div
+            data-aos="slide-left"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            className={styles.col8}
+          >
             <img src="/images/treatedCases/first-case-4.jpg" />
           </div>
         </div>
@@ -120,44 +187,84 @@ function TreatedCases() {
       <span className="myHr" />
       <section className={styles.introduction}>
         <div className={locale === "ar" ? styles.reverseRow : styles.row}>
-          <div data-aos="slide-right" className={styles.col4}>
+          <div
+            data-aos="slide-right"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            className={styles.col4}
+          >
             <h1 className={styles.index}>{t("second_case_before")}</h1>
           </div>
-          <div data-aos="slide-left" className={styles.col8}>
+          <div
+            data-aos="slide-left"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            className={styles.col8}
+          >
             <img src="/images/treatedCases/second-case-1.jpg" />
           </div>
         </div>
       </section>
       <section className={styles.introduction}>
         <div className={locale === "ar" ? styles.reverseRow : styles.row}>
-          <div data-aos="slide-right" className={styles.col4}>
+          <div
+            data-aos="slide-right"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            className={styles.col4}
+          >
             <h1 className={styles.index}>
               {t("second_case_after_three_sessions")}
             </h1>
           </div>
-          <div data-aos="slide-left" className={styles.col8}>
+          <div
+            data-aos="slide-left"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            className={styles.col8}
+          >
             <img src="/images/treatedCases/second-case-2.jpg" />
           </div>
         </div>
       </section>
       <section className={styles.introduction}>
         <div className={locale === "ar" ? styles.reverseRow : styles.row}>
-          <div data-aos="slide-right" className={styles.col4}>
+          <div
+            data-aos="slide-right"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            className={styles.col4}
+          >
             <h1 className={styles.index}>
               {t("second_case_after_seven_sessions")}
             </h1>
           </div>
-          <div data-aos="slide-left" className={styles.col8}>
+          <div
+            data-aos="slide-left"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            className={styles.col8}
+          >
             <img src="/images/treatedCases/second-case-3.jpg" />
           </div>
         </div>
       </section>
       <section className={styles.introduction}>
         <div className={locale === "ar" ? styles.reverseRow : styles.row}>
-          <div data-aos="slide-right" className={styles.col4}>
+          <div
+            data-aos="slide-right"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            className={styles.col4}
+          >
             <h1 className={styles.index}>{t("second_case_after_ten_years")}</h1>
           </div>
-          <div data-aos="slide-left" className={styles.col8}>
+          <div
+            data-aos="slide-left"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            className={styles.col8}
+          >
             <img src="/images/treatedCases/second-case-4.jpg" />
           </div>
         </div>

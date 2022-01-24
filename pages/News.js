@@ -25,17 +25,23 @@ function News() {
         <img
           className={styles.introImg}
           alt="mili-img"
-          src="/images/treated-cases-intro.jpg"
+          src="/images/News-intro.jpg"
         />
         <div className={styles.overlay}>
           <div className="med">
-            <h1 data-aos="flip-up" className={styles.title}>
+            <h1
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-delay="300"
+              className={styles.title}
+            >
               {t("news_title")}
             </h1>
             <br />
             <p
               data-aos="fade-up"
               data-aos-duration="1000"
+              data-aos-delay="300"
               className={styles.desc}
             >
               {t("news_description")}
@@ -46,6 +52,7 @@ function News() {
           <Article
             data-aos="fade-up"
             data-aos-duration="1000"
+            data-aos-delay="300"
             data-aos-delay="600"
           />
         ) : null}
@@ -56,11 +63,12 @@ function News() {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="300"
+            data-aos-delay="300"
             className={styles.card3}
           >
             <h4>{t("article1_title")}</h4>
             <hr />
-            <p>{t("article1_preview")}</p>
+            <p>{t("article1_body")}</p>
             <a
               onClick={() => {
                 setArticleTitle("article1_title");
@@ -75,12 +83,13 @@ function News() {
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
+            data-aos-delay="300"
             data-aos-delay="400"
             className={styles.card3}
           >
             <h4>{t("article2_title")}</h4>
             <hr />
-            <p>{t("article2_preview")}</p>
+            <p>{t("article2_body")}</p>
             <a
               onClick={() => {
                 setArticleTitle("article2_title");
@@ -95,12 +104,13 @@ function News() {
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
+            data-aos-delay="300"
             data-aos-delay="500"
             className={styles.card3}
           >
             <h4>{t("article3_title")}</h4>
             <hr />
-            <p>{t("article3_preview")}</p>
+            <p>{t("article3_body")}</p>
             <a
               onClick={() => {
                 setArticleTitle("article3_title");
@@ -117,12 +127,13 @@ function News() {
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
+            data-aos-delay="300"
             data-aos-delay="600"
             className={styles.card2}
           >
             <h4>{t("article4_title")}</h4>
             <hr />
-            <p>{t("article4_preview")}</p>
+            <p>{t("article4_body")}</p>
             <a
               onClick={() => {
                 setArticleTitle("article4_title");
@@ -137,12 +148,13 @@ function News() {
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
+            data-aos-delay="300"
             data-aos-delay="700"
             className={styles.card2}
           >
             <h4>{t("article5_title")}</h4>
             <hr />
-            <p>{t("article5_preview")}</p>
+            <p>{t("article5_body")}</p>
             <a
               onClick={() => {
                 setArticleTitle("article5_title");
