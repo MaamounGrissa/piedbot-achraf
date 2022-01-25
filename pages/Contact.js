@@ -163,7 +163,9 @@ function Contact() {
                 >
                   <LocalPhoneIcon className={styles.icon} />
                   &nbsp;
-                  <span className={styles.contactItem}></span>+216 20 203 059
+                  <span className={styles.contactItem}></span>+216 50 222 522{" "}
+                  <br />
+                  +216 73 215 444
                 </a>
                 <a
                   href="mailto:arine.conseil.affaires@gmail.com"
@@ -174,11 +176,11 @@ function Contact() {
                   <EmailIcon className={styles.icon} />
                   &nbsp;
                   <span className={styles.contactItem}>
-                    arine.conseil.affaires@gmail.com
+                    contact@piedbot-mili.com <br /> mili.fraj@gmail.com
                   </span>
                 </a>
                 <a
-                  href="https://goo.gl/maps/TWbqEb7siNgP7Nd66"
+                  href="https://goo.gl/maps/yvuKPLpTaJqsmojt8"
                   target="_blanc"
                   rel="noreferrer noopener"
                   className={
@@ -202,13 +204,6 @@ function Contact() {
                   rel="noreferrer noopener"
                 >
                   <img src="/images/socials/facebook.png" alt="Facebook" />
-                </a>
-                <a
-                  href="https://instagram.com"
-                  target="_blanc"
-                  rel="noreferrer noopener"
-                >
-                  <img src="/images/socials/instagram.png" alt="Instagram" />
                 </a>
                 <a
                   href="https://linkedin.com"

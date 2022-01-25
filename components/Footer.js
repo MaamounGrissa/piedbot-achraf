@@ -1,12 +1,14 @@
 import styles from "../styles/Footer.module.css";
 import { useTranslation } from "next-i18next";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 function Footer() {
   const { t } = useTranslation("common");
+  const { locale } = useRouter();
   return (
     <footer className={styles.footer}>
-      <div className={styles.socials}>
+      <div className={locale === "ar" ? styles.leftSocials : styles.socials}>
         <a
           href="https://www.facebook.com/METHODE.MILI/"
           target="_blanc"

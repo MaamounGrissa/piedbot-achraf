@@ -3,6 +3,22 @@
   padding: 20px;
 }
 
+.leftSocials {
+  display: block;
+  bottom: 10px;
+  left: 10px;
+  z-index: 999;
+  position: fixed;
+}
+
+.leftSocials a {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  max-width: 100%;
+  margin: 5px;
+}
+
 .socials {
   display: block;
   bottom: 10px;
@@ -48,5 +64,11 @@
   }
   .socials {
     right: 1px;
+  }
+  .leftSocials a {
+    display: block;
+  }
+  .leftSocials {
+    left: 1px;
   }
 }
