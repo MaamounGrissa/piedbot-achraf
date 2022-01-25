@@ -50,7 +50,7 @@ function Header(props) {
             }}
           >
             <Link href="/">
-              <img src="images/new-logo.png" alt="Logo" />
+              <img src="images/logo.png" alt="Logo" />
             </Link>
           </div>
           <div className="right-side flex">
