@@ -156,7 +156,7 @@ function Contact() {
                   <span>{t("contact_desc")}</span>
                 </h2>
                 <a
-                  href="tel:+21620203059"
+                  href="tel:+21650222522"
                   className={
                     locale === "ar" ? "mb-2 flex rtl-row" : "mb-2 flex"
                   }
@@ -168,7 +168,7 @@ function Contact() {
                   +216 73 215 444
                 </a>
                 <a
-                  href="mailto:arine.conseil.affaires@gmail.com"
+                  href="mailto:mili.fraj@gmail.com"
                   className={
                     locale === "ar" ? "mb-2 flex rtl-row" : "mb-2 flex"
                   }
@@ -189,7 +189,9 @@ function Contact() {
                 >
                   <RoomIcon className={styles.icon} />
                   &nbsp;
-                  <span className={styles.contactItem}>{t("address")}</span>
+                  <span className={styles.contactItem}>
+                    App 101 Imm Avicenne، IBN EL Jazzar St, Sousse
+                  </span>
                 </a>
               </div>
               <div
