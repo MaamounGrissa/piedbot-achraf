@@ -4,6 +4,7 @@ import styles from "../styles/Library.module.css";
 import { useRouter } from "next/router";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import Head from "next/head";
 
 export async function getStaticProps({ locale }) {
   return {
