@@ -4,8 +4,10 @@ export default function Meta() {
   return (
     <Head>
       <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
-      <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
-      <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="/16.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="/32.png" />
+      <link rel="icon" type="image/png" sizes="48x48" href="/48.png" />
+      <link rel="icon" type="image/png" sizes="96x96" href="/96.png" />
       <link rel="manifest" href="/favicon/site.webmanifest" />
       <link rel="mask-icon" href="/favicon.png" />
       <link rel="shortcut icon" href="/favicon.png" />
@@ -15,6 +17,7 @@ export default function Meta() {
       <title>
         PiedBot, Clubfoot - Méthode Mili Fraj Mili, طريقة ميلي القدم الحنفاء
       </title>
+      <meta name="robots" content="index, follow" />
       <meta
         name="description"
         content="Mili Method for treating babies clubfoot defect innovative approach from Dr Mili Fraj physiotherapist, Méthode Mili pour le traitement du pied bot des bébés approche innovante du Dr Mili Fraj physiothérapeute, طريقة ميلي لعلاج عيوب القدم الحنفاء للأطفال طريقة مبتكرة من أخصائي العلاج الطبيعي للدكتور ميلي فرج"

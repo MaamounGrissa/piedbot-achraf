@@ -1,0 +1,9 @@
+user-agent: *
+Allow: /en
+Allow: /fr
+Allow: /ar
+Allow: /Mili
+Allow: /TreatedCases
+Allow: /Library
+Allow: /News
+Allow: /Contact
