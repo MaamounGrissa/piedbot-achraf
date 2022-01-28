@@ -17,6 +17,13 @@ export default function Meta() {
       <title>
         PiedBot, Clubfoot - Méthode Mili Fraj Mili, طريقة ميلي القدم الحنفاء
       </title>
+      <meta property="og:title" content="PiedBot-Méthode Mili" key="title" />
+      <meta property="og:title" content="Clubfoot-Mili Method" key="title" />
+      <meta
+        property="og:title"
+        content="طريقة ميلي القدم الحنفاء"
+        key="title"
+      />
       <meta name="robots" content="index, follow" />
       <meta
         name="description"
