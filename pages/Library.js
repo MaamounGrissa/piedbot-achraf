@@ -19,6 +19,14 @@ function Library() {
 
   return (
     <>
+      <Head>
+        <title>Library PiedBot, Clubfoot, طريقة ميلي</title>
+        <meta
+          name="description"
+          content="library, bibliothèque, مرجع"
+          key="desc"
+        />
+      </Head>
       <section className={styles.intro}>
         <img
           className={styles.introImg}

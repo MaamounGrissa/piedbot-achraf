@@ -4,6 +4,7 @@ import styles from "../styles/News.module.css";
 import { useRouter } from "next/router";
 import Article from "../components/Article";
 import { useAppContext } from "../Contexts/AppWrapper";
+import Head from "next/head";
 
 export async function getStaticProps({ locale }) {
   return {
@@ -21,6 +22,14 @@ function News() {
 
   return (
     <>
+      <Head>
+        <title>News PiedBot, Clubfoot, طريقة ميلي</title>
+        <meta
+          name="description"
+          content="mili method news, actualités de méthode mili, أخبار طريقة ميلي"
+          key="desc"
+        />
+      </Head>
       <section className={styles.intro}>
         <img
           className={styles.introImg}

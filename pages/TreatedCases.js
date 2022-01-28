@@ -3,6 +3,7 @@ import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 export async function getStaticProps({ locale }) {
   return {
@@ -17,6 +18,14 @@ function TreatedCases() {
   const { t } = useTranslation("common");
   return (
     <>
+      <Head>
+        <title>Treated Cases PiedBot, Clubfoot, طريقة ميلي</title>
+        <meta
+          name="description"
+          content="treated cases using the Mili Method, cas traités à l'aide de la méthode mili, الحالات المعالجة بطريقة ميلي"
+          key="desc"
+        />
+      </Head>
       <section className={styles.intro}>
         <img
           className={styles.introImg}

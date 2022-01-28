@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/dist/client/router";
 import { useEffect, useState } from "react";
+import Head from "next/head";
 import CountUp from "react-countup";
 
 export async function getStaticProps({ locale }) {
@@ -37,6 +38,16 @@ export default function Home(props) {
 
   return (
     <>
+      <Head>
+        <title>
+          PiedBot, Clubfoot - Méthode Mili Fraj Mili, طريقة ميلي القدم الحنفاء
+        </title>
+        <meta
+          name="description"
+          content="mili method for treating babies clubfoot defect innovative approach from Dr Mili Fraj physiotherapist, méthode mili pour le traitement du pied bot des bébés approche innovante du Dr Mili Fraj physiothérapeute, طريقة ميلي لعلاج عيوب القدم الحنفاء للأطفال طريقة مبتكرة من أخصائي العلاج الطبيعي للدكتور ميلي فرج"
+          key="desc"
+        />
+      </Head>
       <section className={styles.intro}>
         <video className={styles.introImg} autoPlay loop muted>
           <source src="/videos/giff.mp4" type="video/mp4" />

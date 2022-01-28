@@ -14,15 +14,7 @@ export default function Meta() {
       <meta name="msapplication-TileColor" content="#000000" />
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="theme-color" content="#000" />
-      <title>
-        PiedBot, Clubfoot - Méthode Mili Fraj Mili, طريقة ميلي القدم الحنفاء
-      </title>
-      <meta property="og:title" content="Clubfoot-Mili Method" key="title" />
       <meta name="robots" content="index, follow" />
-      <meta
-        name="description"
-        content="Mili Method for treating babies clubfoot defect innovative approach from Dr Mili Fraj physiotherapist, Méthode Mili pour le traitement du pied bot des bébés approche innovante du Dr Mili Fraj physiothérapeute, طريقة ميلي لعلاج عيوب القدم الحنفاء للأطفال طريقة مبتكرة من أخصائي العلاج الطبيعي للدكتور ميلي فرج"
-      />
       <meta
         name="keywords"
         content="pied bot, pied, bot, mili, méthode, methode, piedbot, piedbot methode mili, mili method, fraj mili, MILI, methode dynamique, innovation, kinéthérapy, physiothérapy, nouveau né, bébé, clubfoot, foot, club, mili, method, method, clubfoot, clubfoot mili method, mili method, fraj mili, MILI, dynamic method, innovation, kinetherapy, physiotherapy, newborn, baby, حنف القدم ، القدم ، ميلي ، طريقة ، حنف القدم ، طريقة ميلي القدم الحنفاء، القدم الحنفاء ، طريقة ميلي ، فرج ميلي ، ميلي ، الأسلوب الديناميكي ، الابتكار ، العلاج الطبيعي ، حديثي الولادة ، طفل"

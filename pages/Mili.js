@@ -2,6 +2,7 @@ import styles from "../styles/Mili.module.css";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Link from "next/link";
+import Head from "next/head";
 import { useRouter } from "next/router";
 
 export async function getStaticProps({ locale }) {
@@ -24,6 +25,14 @@ function Mili() {
   const { t } = useTranslation("common");
   return (
     <>
+      <Head>
+        <title>Mili PiedBot, Clubfoot, طريقة ميلي</title>
+        <meta
+          name="description"
+          content="mili method, méthode mili, طريقة ميلي"
+          key="desc"
+        />
+      </Head>
       <section className={styles.intro}>
         <img
           className={styles.introImg}
@@ -217,7 +226,7 @@ function Mili() {
             data-aos-duration="1000"
             data-aos-delay="300"
           >
-            <div 
+            <div
               className={
                 locale === "ar" ? styles.reverseListIcon : styles.listIcon
               }
@@ -319,7 +328,7 @@ function Mili() {
             </p>
           </div>
         </div>
-        <div 
+        <div
           className={
             locale === "ar" ? styles.reverseListContainer : styles.listContainer
           }
