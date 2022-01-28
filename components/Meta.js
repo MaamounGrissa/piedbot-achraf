@@ -12,12 +12,7 @@ export default function Meta() {
       <link rel="mask-icon" href="/favicon.png" />
       <link rel="shortcut icon" href="/favicon.png" />
       <meta charset="utf-8"></meta>
-      <link rel="canonical" href="https://piedbot-mili.com" />
       <link rel="canonical" href="https://clubfoot-mili.com" />
-      <link rel="canonical" href="https://piedbot-mili.com/ar" />
-      <link rel="canonical" href="https://clubfoot-mili.com/ar" />
-      <link rel="canonical" href="https://piedbot-mili.com/fr" />
-      <link rel="canonical" href="https://clubfoot-mili.com/fr" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta name="msapplication-TileColor" content="#000000" />
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />

@@ -22,7 +22,11 @@ function Footer() {
             height={10}
           />
         </a>
-        <a href="" target="_blanc" rel="noreferrer noopener">
+        <a
+          href="https://linkedin.com"
+          target="_blanc"
+          rel="noreferrer noopener"
+        >
           <Image
             src="/images/socials/linkedin.png"
             alt="linkedin"
