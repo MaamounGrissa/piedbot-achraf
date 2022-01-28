@@ -167,7 +167,7 @@ export default function Home(props) {
             data-aos-delay="300"
             className={styles.col5}
           >
-            <img src="./images/icons/injury.png" />
+            <img alt="méthode dynamique" src="./images/icons/injury.png" />
             <p>{t("dynamic_actives")}</p>
           </div>
           <div
@@ -176,7 +176,10 @@ export default function Home(props) {
             data-aos-delay="300"
             className={styles.col5}
           >
-            <img src="./images/icons/processing.png" />
+            <img
+              alt="correction simultané"
+              src="./images/icons/processing.png"
+            />
             <p>{t("simultaneous_correction")}</p>
           </div>
           <div
@@ -185,7 +188,7 @@ export default function Home(props) {
             data-aos-delay="300"
             className={styles.col5}
           >
-            <img src="./images/icons/blood.png" />
+            <img alt="traction active" src="./images/icons/blood.png" />
             <p>{t("traction_actives")}</p>
           </div>
           <div
@@ -194,7 +197,7 @@ export default function Home(props) {
             data-aos-delay="300"
             className={styles.col5}
           >
-            <img src="./images/icons/intervention.png" />
+            <img alt="morphogénie" src="./images/icons/intervention.png" />
             <p>{t("morphogenesis")}</p>
           </div>
           <div
@@ -203,7 +206,7 @@ export default function Home(props) {
             data-aos-delay="300"
             className={styles.col5}
           >
-            <img src="./images/icons/first-steps.png" />
+            <img alt="auto éducation" src="./images/icons/first-steps.png" />
             <p>{t("auto_education")}</p>
           </div>
         </div>

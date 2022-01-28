@@ -61,54 +61,42 @@ function Header(props) {
                     setShowLangsList(false);
                   }}
                 >
-                  <Link href="/">
-                    <a>{t("menu_home")}</a>
-                  </Link>
+                  <Link href="/">{t("menu_home")}</Link>
                 </li>
                 <li
                   onClick={() => {
                     setShowLangsList(false);
                   }}
                 >
-                  <Link href="/Mili">
-                    <a>{t("menu_mili")}</a>
-                  </Link>
+                  <Link href="/Mili">{t("menu_mili")}</Link>
                 </li>
                 <li
                   onClick={() => {
                     setShowLangsList(false);
                   }}
                 >
-                  <Link href="/TreatedCases">
-                    <a>{t("menu_cases_treated")}</a>
-                  </Link>
+                  <Link href="/TreatedCases">{t("menu_cases_treated")}</Link>
                 </li>
                 <li
                   onClick={() => {
                     setShowLangsList(false);
                   }}
                 >
-                  <Link href="/Library">
-                    <a>{t("library")}</a>
-                  </Link>
+                  <Link href="/Library">{t("library")}</Link>
                 </li>
                 <li
                   onClick={() => {
                     setShowLangsList(false);
                   }}
                 >
-                  <Link href="/News">
-                    <a>{t("news")}</a>
-                  </Link>
+                  <Link href="/News">{t("news")}</Link>
                 </li>
                 <li
                   onClick={() => {
                     setShowLangsList(false);
                   }}
                 >
-                  <Link href="/Contact">
-                    <a>{t("menu_contacts")}</a>
-                  </Link>
+                  <Link href="/Contact">{t("menu_contacts")}</Link>
                 </li>
               </ul>
             </nav>
@@ -148,10 +136,10 @@ function Header(props) {
                     }}
                   >
                     <Link href={asPath} locale="fr">
-                      <a className="flex">
+                      <div className="flex">
                         <img src="/images/langs/fr.png" alt="Lang" />{" "}
                         <span>Français</span>
-                      </a>
+                      </div>
                     </Link>
                   </li>
                   <li
@@ -160,10 +148,10 @@ function Header(props) {
                     }}
                   >
                     <Link href={asPath} locale="en">
-                      <a className="flex">
+                      <div className="flex">
                         <img src="/images/langs/en.png" alt="Lang" />{" "}
                         <span>English</span>
-                      </a>
+                      </div>
                     </Link>
                   </li>
                   <li
@@ -172,10 +160,10 @@ function Header(props) {
                     }}
                   >
                     <Link href={asPath} locale="ar">
-                      <a className="flex">
+                      <div className="flex">
                         <img src="/images/langs/ar.png" alt="Lang" />{" "}
                         <span>عربي</span>
-                      </a>
+                      </div>
                     </Link>
                   </li>
                 </ul>
@@ -203,7 +191,7 @@ function Header(props) {
                 setShowMobileMenue(false);
               }}
             >
-              <a>{t("menu_home")}</a>
+              {t("menu_home")}
             </li>
           </Link>
           <Link href="/Mili">
@@ -213,7 +201,7 @@ function Header(props) {
                 setShowMobileMenue(false);
               }}
             >
-              <a>{t("menu_mili")}</a>
+              {t("menu_mili")}
             </li>
           </Link>
           <Link href="/TreatedCases">
@@ -223,7 +211,7 @@ function Header(props) {
                 setShowMobileMenue(false);
               }}
             >
-              <a>{t("menu_cases_treated")}</a>
+              {t("menu_cases_treated")}
             </li>
           </Link>
           <Link href="/Library">
@@ -233,7 +221,7 @@ function Header(props) {
                 setShowMobileMenue(false);
               }}
             >
-              <a>{t("library")}</a>
+              {t("library")}
             </li>
           </Link>
           <Link href="/News">
@@ -243,7 +231,7 @@ function Header(props) {
                 setShowMobileMenue(false);
               }}
             >
-              <a>{t("news")}</a>
+              {t("news")}
             </li>
           </Link>
           <Link href="/Contact">
@@ -253,7 +241,7 @@ function Header(props) {
                 setShowMobileMenue(false);
               }}
             >
-              <a>{t("menu_contacts")}</a>
+              {t("menu_contacts")}
             </li>
           </Link>
         </ul>

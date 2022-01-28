@@ -12,6 +12,7 @@ export default function Meta() {
       <link rel="mask-icon" href="/favicon.png" />
       <link rel="shortcut icon" href="/favicon.png" />
       <meta charset="utf-8"></meta>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta name="msapplication-TileColor" content="#000000" />
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="theme-color" content="#000" />
