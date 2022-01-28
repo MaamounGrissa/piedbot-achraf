@@ -12,11 +12,16 @@ export default function Meta() {
       <meta name="msapplication-TileColor" content="#000000" />
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="theme-color" content="#000" />
-      <title>PiedBot - Methode Mili</title>
-      <meta name="description" content="Pied Bot - Methode Mili" />
+      <title>PiedBot, Clubfoot - Méthode Mili Fraj Mili</title>
+      <meta
+        name="description"
+        content="Mili Method for treating babies clubfoot defect innovative approach from Dr Mili Fraj physiotherapist"
+      />
       <meta
         name="keywords"
-        content="pied bot, pied, bot, mili, methode, piedbot, piedbot methode mili, mili method"
+        content="pied bot, pied, bot, mili, méthode, methode, piedbot, piedbot methode mili, mili method, fraj mili, MILI, methode dynamique, innovation, kinéthérapy, physiothérapy, nouveau né, bébé,
+        clubfoot, foot, club, mili, method, method, clubfoot, clubfoot mili method, mili method, fraj mili, MILI, dynamic method, innovation, kinetherapy, physiotherapy, newborn, baby,
+        حنف القدم ، القدم ، ميلي ، طريقة ، حنف القدم ، طريقة ميلي القدم الحنفاء، القدم الحنفاء ، طريقة ميلي ، فرج ميلي ، ميلي ، الأسلوب الديناميكي ، الابتكار ، العلاج الطبيعي ، حديثي الولادة ، طفل"
       />
       <meta property="og:image" content="/favicon.png" />
       <link
