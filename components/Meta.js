@@ -11,7 +11,7 @@ export default function Meta() {
       <link rel="manifest" href="/favicon/site.webmanifest" />
       <link rel="mask-icon" href="/favicon.png" />
       <link rel="shortcut icon" href="/favicon.png" />
-      <meta charset="utf-8"></meta>
+      <meta charSet="utf-8" />
       <link rel="canonical" href="https://clubfoot-mili.com" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta name="msapplication-TileColor" content="#000000" />
