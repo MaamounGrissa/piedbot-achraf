@@ -20,7 +20,7 @@ export default function Meta() {
       <meta name="robots" content="index, follow" />
       <meta
         name="keywords"
-        content="méthode mili pour les pied bot, mili method for clubfoot, pied bot, pied, bot, mili, méthode, methode, piedbot, piedbot methode mili, mili method, fraj mili, MILI, methode dynamique, innovation, kinéthérapy, physiothérapy, nouveau né, bébé, clubfoot, foot, club, mili, method, method, clubfoot, clubfoot mili method, mili method, fraj mili, MILI, dynamic method, innovation, kinetherapy, physiotherapy, newborn, baby, حنف القدم ، القدم ، ميلي ، طريقة ، حنف القدم ، طريقة ميلي القدم الحنفاء، القدم الحنفاء ، طريقة ميلي ، فرج ميلي ، ميلي ، الأسلوب الديناميكي ، الابتكار ، العلاج الطبيعي ، حديثي الولادة ، طفل"
+        content="méthode mili pour les pied bot, mili method for clubfoot, pied bot, pied, bot, mili, méthode, methode, piedbot, piedbot methode mili, mili method, fraj mili, MILI, methode dynamique, innovation, kinéthérapy, physiothérapy, nouveau né, bébé, clubfoot, foot, club,sousse,tunisie,piedbot tunisie,clubfoot world,international,international clubfoot,bio,doctor,docteur,professor, professeur,website mili,  mili, method, method, fredj,fradj,clubfoot, clubfoot mili method, mili method, fraj mili, MILI, dynamic method, innovation, kinetherapy, physiotherapy, newborn, baby,سوسة ، تونس ، المنستير ، الساحل، فرحات حشاد ، ميلي ، طريقة ، حنف القدم ، طريقة ميلي القدم الحنفاء، القدم الحنفاء ، طريقة ميلي ، فرج ميلي ، ميلي ، الأسلوب الديناميكي ، الابتكار ، العلاج الطبيعي ، حديثي الولادة ، طفل"
       />
       <meta property="og:image" content="/favicon.png" />
       <link
