@@ -23,7 +23,7 @@ function News() {
   return (
     <>
       <Head>
-        <title>News | PiedBot, Clubfoot, طريقة ميلي</title>
+        <title>News | Pied Bot, Clubfoot, طريقة ميلي</title>
         <meta
           name="description"
           content="mili method news, actualités de méthode mili, أخبار طريقة ميلي"

@@ -26,7 +26,7 @@ function Mili() {
   return (
     <>
       <Head>
-        <title>Mili | PiedBot, Clubfoot, طريقة ميلي</title>
+        <title>Mili | Pied Bot, Clubfoot, طريقة ميلي</title>
         <meta
           name="description"
           content="mili method, méthode mili, طريقة ميلي"

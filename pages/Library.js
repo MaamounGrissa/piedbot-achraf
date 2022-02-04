@@ -21,7 +21,7 @@ function Library() {
   return (
     <>
       <Head>
-        <title>Library | PiedBot, Clubfoot, طريقة ميلي</title>
+        <title>Library | Pied Bot, Clubfoot, طريقة ميلي</title>
         <meta
           name="description"
           content="library, bibliothèque, مرجع"

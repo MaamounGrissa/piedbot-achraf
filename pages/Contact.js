@@ -73,7 +73,7 @@ function Contact() {
   return (
     <>
       <Head>
-        <title>Contact | PiedBot, Clubfoot, طريقة ميلي </title>
+        <title>Contact | Pied Bot, Clubfoot, طريقة ميلي </title>
         <meta
           name="description"
           content="للتواصل مع السيد فرج ميلي , contactez Mr MILI Fraj, contact Mr Fraj MILI"

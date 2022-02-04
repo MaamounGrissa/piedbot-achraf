@@ -40,7 +40,7 @@ export default function Home(props) {
     <>
       <Head>
         <title>
-          PiedBot, Clubfoot - Méthode Mili Fraj Mili, طريقة ميلي القدم الحنفاء
+          Pied Bot, Clubfoot - Méthode Mili Fraj Mili, طريقة ميلي القدم الحنفاء
         </title>
         <meta
           name="description"

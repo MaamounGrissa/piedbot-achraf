@@ -19,7 +19,7 @@ function TreatedCases() {
   return (
     <>
       <Head>
-        <title>Treated Cases | PiedBot, Clubfoot, طريقة ميلي</title>
+        <title>Treated Cases | Pied Bot, Clubfoot, طريقة ميلي</title>
         <meta
           name="description"
           content="treated cases using the Mili Method, cas traités à l'aide de la méthode mili, الحالات المعالجة بطريقة ميلي"
