@@ -1,4 +1,5 @@
 user-agent: *
+Allow: /
 Allow: /en
 Allow: /fr
 Allow: /ar
