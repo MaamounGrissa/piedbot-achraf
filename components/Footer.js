@@ -55,7 +55,7 @@ function Footer() {
             </a>
           </p>
         </div>
-        <div className="col3"></div>
+        <div className="col3"></div> 
       </div>
     </footer>
   );
