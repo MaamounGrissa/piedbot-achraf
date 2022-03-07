@@ -61,7 +61,6 @@ function News() {
           <Article
             data-aos="fade-up"
             data-aos-duration="1000"
-            data-aos-delay="300"
             data-aos-delay="600"
           />
         ) : null}
@@ -71,7 +70,6 @@ function News() {
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
-            data-aos-delay="300"
             data-aos-delay="300"
             className={styles.card3}
           >
@@ -92,7 +90,7 @@ function News() {
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
-            data-aos-delay="300"
+
             data-aos-delay="400"
             className={styles.card3}
           >
@@ -113,7 +111,6 @@ function News() {
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
-            data-aos-delay="300"
             data-aos-delay="500"
             className={styles.card3}
           >
@@ -136,7 +133,6 @@ function News() {
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
-            data-aos-delay="300"
             data-aos-delay="600"
             className={styles.card2}
           >
@@ -157,7 +153,6 @@ function News() {
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
-            data-aos-delay="300"
             data-aos-delay="700"
             className={styles.card2}
           >
