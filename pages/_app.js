@@ -33,6 +33,7 @@ function MyApp({ Component, pageProps }) {
       offset: 50,
       delay: 100,
       duration: 1500,
+      once: true,
     });
   }, []);
 
